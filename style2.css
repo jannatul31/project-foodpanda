@@ -1,0 +1,371 @@
+
+body{
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+}
+.full{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.sticky{ 
+  
+    
+
+ /* position: -webkit-sticky;
+  position: sticky;
+  top: 0;*/
+}
+.sign-up{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(226,27,112);
+   height: 64px;
+}
+.text-1st{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 3em;
+   margin-top: 1em;
+}
+.sign-up-now{
+    width: 126.59px;
+    height: 48px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(226,27,112);
+    border: 1px solid white;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: 5px;
+  margin-left: -5em;
+    }
+    .sign-up-now:hover{
+        background-color: rgb(247,241,255);
+        color: rgb(226,27,112);
+  }
+  .logo{
+    display: flex;
+   
+    
+  }
+  .logo-text{
+    margin-top: 0.7em;
+  }
+  
+  .sec1-nav{
+    margin-top: 30px; 
+    background-color: white;
+    margin-top: 0;
+    
+  }
+  .logo .logo-img{
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    margin-bottom: 1em;
+   
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    
+   
+  }
+
+  nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+    
+  }
+  
+  
+  .logo-text{
+    font-size: 27px;
+    font-weight: 600;
+    color: rgba(226, 27, 113, 0.932)
+  }
+  .log-in{
+    width: 72px;
+    height: 32px;
+    border-radius: 8px;
+    color: rgb(226,27,112);
+    border: 1px solid rgb(226,27,112);
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 1em;
+    
+  }
+  .log-in:hover{
+    width: 82px;
+    height: 40px;
+    border-radius: 8px;
+    color: rgb(226,27,112);
+    border: 1px solid rgb(226,27,112);
+    background-color: rgb(253,242,247);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .btn-sign-up{
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.952);
+    border: 1px solid rgb(226,27,112);
+    background-color: rgb(226,27,112);
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 1em;
+  }
+  .btn-sign-up:hover{
+    width: 88px;
+    height: 40px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.952);
+    border: 1px solid rgb(226,27,112);
+    background-color: rgb(194,23,96);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .language{
+    border: 0;
+    color: black;
+    font-size: 15px;
+   font-weight: 700;
+   margin-top: 1em;
+
+  }
+  .language:hover{
+    width: 82px;
+    height: 40px;
+    border-radius: 8px;
+    color: black;
+   
+    background-color: rgb(253,242,247);
+    font-size: 15px;
+    font-weight: 600;
+  }
+.sec2-header{
+  margin-top: 3px;
+  background-color: rgb(247,247,247);
+}
+/*
+.header-section{
+  display: flex;
+}
+.header-image img{
+  width: 500px;
+  height: 470px;
+  margin-left: 16em;
+}*/
+.form-section{
+  margin-left: 2em;
+  margin-top: 7em;
+}
+
+.form-title{
+  font-size: 2em;
+}
+.header-image img{
+  width: 500px;
+  height: 600px;
+  margin-left: 30%;
+  
+  
+}
+.header-section{
+  display: flex;
+}
+.form .input{
+   width: 410px; 
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.904);
+  padding-left: 10px;
+  margin-top: 18px;
+  margin-left: 16px;
+  
+}
+.form {
+background-color: white;
+height: 85px;
+width: 600px; 
+border: 0;
+border-radius: 9px;
+}
+.submit{
+  width: 98px;
+  height: 46px;
+  font-size: 14px;
+    color: white;
+  font-weight: 500;
+ background-color: rgba(226, 27, 113, 0.932);
+ border-radius: 6px;
+ border: 0;
+ margin-left: 13px;
+ 
+}.submit:hover{
+  width: 105px;
+  height: 52px;
+  font-size: 14px;
+    color: white;
+  font-weight: 500;
+ background-color: rgb(194,23,96);
+ border-radius: 6px;
+ border: 0;
+ margin-left: 13px;
+ 
+}
+.sec3-main{
+  margin-top: 65px;
+  position: relative;
+  margin-bottom: 15em;
+}
+.sec3-image img{
+  margin-top: 14px;
+  width: 100%;
+  height: 50%;
+}
+.extra{
+  margin-left: 0;
+}
+.sec3-main-details{
+  background-color: white;
+  height: 300px;
+  width: 650px;
+  border-radius: 16px;
+  box-shadow: 5px 9px 8px 1px gainsboro;
+  padding-top: 17px;
+ padding-left: 14px;
+ position: absolute;
+ left: 50px;
+ top: 80%;
+ 
+
+}
+.sec4-main{
+  position: relative;
+}
+.places{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  
+}
+ .places img{
+  width: 100%;
+ }
+
+.card-img-top{
+  width: 350px;
+  height: 280px;
+  border: 0;
+  
+}
+.button{
+  background-color: white;
+  color: black;
+  width: 180px;
+  border: 1px solid rgb(226,27,112);
+  text-align: center;
+}
+.button:hover{
+  background-color: rgb(226,27,112);
+  color: white;
+}
+.same{
+  margin-bottom: 0.5em;
+}
+.icon-section{
+  display: flex;
+  padding-bottom: 1em;
+}
+.sec4-main-details{
+  height: 340
+  px;
+  width: 100%;
+  background-color: rgb(226,27,112);
+  color: white;
+  padding-top: 30px;
+  padding-left: 26px;
+  border-radius: 10px;
+}
+.icon img{
+  height: 50px;
+  width: 160px;
+ 
+  margin-left: 16px;
+}
+.sec4-main-details .p{
+  padding-top: 30px;
+  padding-left: 30px;
+ 
+}
+.sec5-main{
+  margin-top: 52px;
+  position: relative;
+  margin-top: 3em;
+  margin-bottom: 3em;
+    
+}
+.sec5-image img{
+  position: absolute;
+  left: 50%;
+  top: -6%;
+  height: 517px;
+}
+
+
+.sec6-main{
+  margin-top: 3em;
+  position: relative;
+  margin-bottom: 12em;
+}
+.sec6-image img{
+  margin-top: 14px;
+  width: 100%;
+  height: 50%;
+}
+.extra{
+  margin-left: 0;
+}
+.sec6-main-details{
+  background-color: white;
+  height: 200px;
+  width: 650px;
+  border-radius: 16px;
+  box-shadow: 5px 9px 8px 1px gainsboro;
+  padding-top: 17px;
+ padding-left: 14px;
+ position: absolute;
+ left: 50px;
+ top: 90%;
+ 
+ 
+
+}
+.sec7-title{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.same-thing{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.651);
+  
+}
+.extra-color{
+  filter: brightness(0);
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 22px;
+}
+.logo-2{
+  margin-left: 50px;
+}
